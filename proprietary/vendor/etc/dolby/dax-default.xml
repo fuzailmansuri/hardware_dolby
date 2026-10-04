@@ -1144,7 +1144,7 @@
       <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
       <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
       <bass-enhancer-boost value="0"/>
-      <bass-enhancer-cutoff-frequency value="250"/>
+      <bass-enhancer-cutoff-frequency value="420"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
       <complex-equalizer-tuning-left value="0,12209,0,11945,-2527,11769,-3250,11769,-3250,11915,2130,11870,-276,11655,-4668,13074,914,12443,-434,11579,-2250,13728,-959,12171,-973,12198,-526,12198,-526,13743,-720,12912,-282,12599,-3612,11700,-4258,13553,-2389,13686,-1438,12278,247,12130,454,13074,-914,11079,-1164,12262,-2162,12504,-1174,11708,-1437,11445,-2853,11606,-4038,12236,-4697,11969,-3432,11445,-2853,10709,-3070,11773,-4053,13711,-4455,13926,-3731,11842,-3847,10746,-6567,9779,-6596,10244,-5719,9085,-4492,9285,-4019,10137,-4220,11443,-6122,11325,-9220,10152,-11743,4129,-5513,4753,-6188,5569,-7243,6595,-9002,7945,-11253,9974,-13267,13704,-14272,19836,-1800,15047,17310,6189,21090,-4189,17986,-5064,14249,-4317,11547,-3573,9382,-3097,7983,-2826,7244,-2668,6944,-2566,6895,-2461,7073,-2356,7382,-2366,7690,-2536,7972,-2769,8259,-3003,8606,-3326,9084,-3895,9842,-4758,11058,-2112,15607,10707,16488,22678,6502,26213,0"/>
@@ -1163,16 +1163,16 @@
         </mix_matrix>
       </output-mode>
       <regulator-overdrive value="0"/>
-      <regulator-timbre-preservation value="12"/>
+      <regulator-timbre-preservation value="16"/>
       <regulator-stress-amount value="64,64,96,96"/>
       <regulator-distortion-slope value="8"/>
       <bass-mbdrc-tuning value="1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
-      <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
+      <virtual-bass-mix-freqs frequency_low="450" frequency_high="950"/>
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
-      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-subgains harmonic_2="-48" harmonic_3="-128" harmonic_4="-224"/>
       <virtual-bass-harmgains value="-2080,48,48,48"/>
       <virtual-bass-hybgains value="0,0,0,0,0,0"/>
       <virtual-bass-rolloff-gain value="0"/>
@@ -1189,7 +1189,7 @@
       <complex-equalizer-enable value="true"/>
       <regulator-enable value="true"/>
       <regulator-speaker-dist-enable value="true"/>
-      <regulator-sibilance-suppress-enable value="false"/>
+      <regulator-sibilance-suppress-enable value="true"/>
       <bass-mbdrc-enable value="false"/>
     </data>
   </tuning>
@@ -1243,7 +1243,7 @@
       <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
       <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
       <bass-enhancer-boost value="0"/>
-      <bass-enhancer-cutoff-frequency value="250"/>
+      <bass-enhancer-cutoff-frequency value="420"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
       <complex-equalizer-tuning-left value="0,12209,0,11945,2527,11768,3252,11768,3252,12126,-2157,13104,228,11212,4465,11767,-822,13753,480,12105,2374,13074,914,12171,973,12198,526,12198,526,12054,868,12449,217,11815,3659,11773,4053,12907,2275,13686,1438,13762,0,12449,-217,12485,938,11761,1857,11650,1845,13056,1142,12945,2050,12299,3279,11361,3953,11018,4460,11969,3432,12033,3203,11969,3432,11153,3840,12465,4050,13858,3973,13711,4455,11350,6553,9722,6801,9258,4922,9295,4596,9806,4245,10212,4252,10728,5740,10551,8590,10676,12349,3768,5031,4792,6238,5513,7170,6335,8647,7564,10713,9648,12834,13816,14388,24422,2203,14512,-16788,6812,-23219,-5121,-21985,-6151,-17305,-5084,-13598,-4095,-10751,-3469,-8943,-3089,-7918,-2850,-7416,-2686,-7217,-2544,-7313,-2465,-7722,-2553,-8296,-2820,-8864,-3158,-9420,-3520,-10086,-4029,-11004,-4862,-12286,-6034,-14021,-2234,-16504,8269,-13023,12662,-3853,12299,0"/>
@@ -1262,16 +1262,16 @@
         </mix_matrix>
       </output-mode>
       <regulator-overdrive value="0"/>
-      <regulator-timbre-preservation value="12"/>
+      <regulator-timbre-preservation value="16"/>
       <regulator-stress-amount value="64,64,96,96"/>
       <regulator-distortion-slope value="8"/>
       <bass-mbdrc-tuning value="0,-1600,0,-960,-384,-288,0,10,50,192,0,-1600,0,-960,-384,-288,0,5,50,192,0,-1600,0,-960,-384,-192,-96,5,50,96,0,-1600,96,-960,-384,-192,-48,5,50,48,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
-      <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
+      <virtual-bass-mix-freqs frequency_low="450" frequency_high="950"/>
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
-      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-subgains harmonic_2="-48" harmonic_3="-128" harmonic_4="-224"/>
       <virtual-bass-harmgains value="-2080,48,48,48"/>
       <virtual-bass-hybgains value="0,0,0,0,0,0"/>
       <virtual-bass-rolloff-gain value="0"/>
@@ -1288,7 +1288,7 @@
       <complex-equalizer-enable value="true"/>
       <regulator-enable value="true"/>
       <regulator-speaker-dist-enable value="true"/>
-      <regulator-sibilance-suppress-enable value="false"/>
+      <regulator-sibilance-suppress-enable value="true"/>
       <bass-mbdrc-enable value="false"/>
     </data>
   </tuning>
@@ -1341,8 +1341,8 @@
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
       <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
-      <bass-enhancer-boost value="192"/>
-      <bass-enhancer-cutoff-frequency value="200"/>
+      <bass-enhancer-boost value="0"/>
+      <bass-enhancer-cutoff-frequency value="420"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
       <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
@@ -1361,16 +1361,16 @@
         </mix_matrix>
       </output-mode>
       <regulator-overdrive value="0"/>
-      <regulator-timbre-preservation value="12"/>
+      <regulator-timbre-preservation value="16"/>
       <regulator-stress-amount value="96,96,96,96"/>
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0,1,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
-      <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
+      <virtual-bass-mix-freqs frequency_low="450" frequency_high="950"/>
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
-      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-subgains harmonic_2="-48" harmonic_3="-128" harmonic_4="-224"/>
       <virtual-bass-harmgains value="-2080,48,48,48"/>
       <virtual-bass-hybgains value="0,0,0,0,0,0"/>
       <virtual-bass-rolloff-gain value="0"/>
@@ -1387,7 +1387,7 @@
       <complex-equalizer-enable value="false"/>
       <regulator-enable value="true"/>
       <regulator-speaker-dist-enable value="true"/>
-      <regulator-sibilance-suppress-enable value="false"/>
+      <regulator-sibilance-suppress-enable value="true"/>
       <bass-mbdrc-enable value="true"/>
 
 
@@ -1543,7 +1543,7 @@
       <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
       <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
       <bass-enhancer-boost value="192"/>
-      <bass-enhancer-cutoff-frequency value="200"/>
+      <bass-enhancer-cutoff-frequency value="420"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
       <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
@@ -1556,16 +1556,16 @@
         <mix_matrix/>
       </output-mode>
       <regulator-overdrive value="0"/>
-      <regulator-timbre-preservation value="12"/>
+      <regulator-timbre-preservation value="16"/>
       <regulator-stress-amount value="96,96,96,96"/>
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0"/>
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
-      <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
+      <virtual-bass-mix-freqs frequency_low="450" frequency_high="950"/>
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
-      <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
+      <virtual-bass-subgains harmonic_2="-48" harmonic_3="-128" harmonic_4="-224"/>
       <virtual-bass-harmgains value="-2080,48,48,48"/>
       <virtual-bass-hybgains value="0,0,0,0,0,0"/>
       <virtual-bass-rolloff-gain value="0"/>
@@ -1582,7 +1582,7 @@
       <complex-equalizer-enable value="false"/>
       <regulator-enable value="true"/>
       <regulator-speaker-dist-enable value="false"/>
-      <regulator-sibilance-suppress-enable value="false"/>
+      <regulator-sibilance-suppress-enable value="true"/>
       <bass-mbdrc-enable value="false"/>
     </data>
   </tuning>
