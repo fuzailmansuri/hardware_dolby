@@ -15,6 +15,11 @@ To build, add the dolby effects in your device's audio effects config then inher
 $(call inherit-product, hardware/dolby/dolby.mk)
 ```
 
+The legacy DSP volume synchronizer is disabled by default. Enable it only if
+your audio HAL implements the `volume_change` parameter, by setting
+`TARGET_DOLBY_DSP_VOLUME_SYNC := true` before inheriting `dolby.mk`. This helper
+is not needed for registering the Dolby software effects.
+
 Now, moving hidl definitions in manifest to device trees is completely absurd so stop overriding manifest in your device trees an example for such would be :-
 
 Changing these in BoardConfig makefile of your device tree:-

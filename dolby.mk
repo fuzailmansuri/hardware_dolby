@@ -98,9 +98,12 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PACKAGES += \
     RemovePackagesDolby
 
-# DSP Volume Synchronizer
+# Legacy Xiaomi HALs implement the volume_change parameter. OSS HALs which
+# do not consume it must not run a persistent service sending these updates.
+ifeq ($(TARGET_DOLBY_DSP_VOLUME_SYNC),true)
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
+endif
 
 # DolbyAtmos
 PRODUCT_PACKAGES += \
