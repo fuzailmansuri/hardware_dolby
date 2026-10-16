@@ -91,8 +91,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.dolby.dax.version=DAX3_3.7.0.8_r1 \
     vendor.audio.dolby.ds2.hardbypass=false \
-    vendor.audio.dolby.ds2.enabled=false \
-    persist.vendor.audio.spatializer.speaker_enabled=true
+    vendor.audio.dolby.ds2.enabled=false
 
 # Remove Packages for Dolby Support
 PRODUCT_PACKAGES += \
