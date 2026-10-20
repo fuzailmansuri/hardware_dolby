@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    SPDX-License-Identifier: Apache-2.0
+-->
+
+<!--
+    Codec2InfoBuilder parses media_codecs_c2.xml from the codec search
+    directories in addition to the vendor media_codecs*.xml, so the Dolby
+    Codec2 decoders register without patching the device codec lists.
+-->
+<MediaCodecs>
+    <Include href="media_codecs_dolby_audio.xml" />
+</MediaCodecs>
