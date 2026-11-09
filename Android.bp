@@ -924,13 +924,13 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
+cc_binary {
     name: "vendor.dolby.media.c2@1.0-service",
-    owner: "sony",
+    defaults: ["libcodec2-hidl-defaults@1.0"],
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/bin/hw/vendor.dolby.media.c2@1.0-service",
+                "media_c2_service.cpp",
             ],
             shared_libs: [
                 "libaconfig_storage_read_api_cc",
@@ -944,10 +944,8 @@ cc_prebuilt_binary {
                 "liblog",
                 "libcodec2",
                 "libutils",
-                "android.hardware.media.c2@1.0",
                 "android.hardware.media.c2@1.1",
                 "android.hardware.media.c2@1.2",
-                "libcodec2_hidl@1.0",
                 "libcodec2_hidl@1.1",
                 "libcodec2_hidl@1.2",
                 "libcodec2_vndk-aidl",
@@ -966,7 +964,6 @@ cc_prebuilt_binary {
     strip: {
         none: true,
     },
-    prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
 }
