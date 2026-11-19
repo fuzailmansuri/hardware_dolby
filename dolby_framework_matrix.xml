@@ -1,4 +1,13 @@
 <compatibility-matrix version="1.0" type="framework">
+    <!-- Hwservicemanager for legacy HIDL HALs -->
+    <hal format="hidl" optional="true">
+        <name>android.hidl.manager</name>
+        <version>1.0</version>
+        <interface>
+            <name>IServiceManager</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>vendor.dolby.hardware.dms</name>
         <version>2.0</version>
