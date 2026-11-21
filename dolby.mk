@@ -91,14 +91,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.dolby.ds2.enabled=false
 
-# Remove Packages for Dolby Support
-PRODUCT_PACKAGES += \
-    RemovePackagesDolby
-
-# DSP Volume Synchronizer
-PRODUCT_PACKAGES += \
-    DSPVolumeSynchronizer
-
 # Dolby app (crDroid LunarisDolby)
 PRODUCT_PACKAGES += \
     LunarisDolby
