@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
     LunarisDolby
 
 # USE_HWDAP must be defined before inheriting this product file.
+USE_HWDAP ?= false
 $(call soong_config_set_bool,dolby_codec2,use_hwdap,$(USE_HWDAP))
 
 ifeq ($(USE_HWDAP),true)
